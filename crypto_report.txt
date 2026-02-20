@@ -1,0 +1,13 @@
+--- CRYPTO REPORT (2026-02-21) ---
+Rank  Name            Price        24h %   
+---------------------------------------------
+N/A   Bitcoin         $67,994.36   +1.96%  
+N/A   Ethereum        $1,968.74    +1.50%  
+N/A   Tether USDt     $1.00        +0.00%  
+N/A   XRP             $1.43        +1.72%  
+N/A   BNB             $626.34      +3.47%  
+N/A   USDC            $1.00        -0.00%  
+N/A   Solana          $84.49       +3.05%  
+N/A   TRON            $0.29        +0.29%  
+N/A   Dogecoin        $0.10        +2.65%  
+N/A   Bitcoin Cash    $558.13      -0.27%  
