@@ -1,4 +1,5 @@
 import requests
+import json
 from datetime import datetime
 
 
@@ -22,6 +23,11 @@ def generate_crypto_report():
         response.raise_for_status()
 
         data = response.json()
+
+        # --- NEW: Save JSON output ---
+        with open("crypto_report.json", "w", encoding="utf-8") as jf:
+            json.dump(data, jf, indent=4)
+
         # Navigate the JSON tree carefully
         crypto_list = data.get('data', {}).get('cryptoCurrencyList', [])
 
@@ -52,6 +58,7 @@ def generate_crypto_report():
 
         print("\nSuccess! Preview of report:")
         print(content)
+        print("\nFull data also saved to crypto_report.json")
 
     except Exception as e:
         print(f"Critial Error: {e}")
